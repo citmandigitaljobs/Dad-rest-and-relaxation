@@ -1,0 +1,91 @@
+main {
+  align-items: center;
+  background: linear-gradient(to bottom, #082066, black);
+  color: #f9f9f9;
+  justify-content: center;
+}
+
+.titlebox {
+  display: grid;
+  font-size: 25px;
+  justify-content: center;
+  align-content: center;
+  color: #ecf0dd;
+  text-decoration: underline;
+  text-underline-offset: 20px; /* Adjust spacing */
+  text-decoration-color: #b4b8a7; /* Optional: Change underline color */
+  text-decoration-thickness: 5px; /* Optional: Adjust thickness */
+}
+
+/* MOBILE RESPONSIVENESS TABLET PORTRAIT */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .relax-exercise {
+    text-align: center;
+    padding: 10px;
+    color: #ecf0dd;
+    /* border: 2px solid yellow; */
+  }
+
+  .tile-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #ecf0dd;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    /*   border: 2px solid red; */
+  }
+}
+
+/* MEDIA QUERIES TABLET LANDSCAPE */
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .relax-exercise {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #ecf0dd;
+    /* border: 2px solid yellow; */
+  }
+
+  .tile-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #ecf0dd;
+    text-align: center;
+    padding: 20px;
+    /*   border: 2px solid red;
+} */
+  }
+}
+
+.exercise-name {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*       border: 2px solid orange; */
+}
+
+.time-and-exercise {
+  padding-bottom: 30px;
+}
+
+.audio-link {
+  font-size: 25px;
+  color: #ecf0dd;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  /*       border: 2px solid green; */
+}
+
+.time {
+  font-size: 20px;
+  color: #f2f5c9;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  /*       border: 2px solid green; */
+}
+
+.audio-name {
+  font-size: 25px;
+  color: #f2f5c9;
+}
