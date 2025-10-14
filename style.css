@@ -34,7 +34,6 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
-    padding-bottom: 100px;
     /*   border: 2px solid red; */
   }
 }
@@ -43,7 +42,7 @@ main {
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .relax-exercise {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: #ecf0dd;
     /* border: 2px solid yellow; */
   }
